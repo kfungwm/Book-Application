@@ -10,19 +10,19 @@ app.get('/', function(request, response) {
   // response.sendFile(__dirname + '/index.html');
 });
 
-app.get('/book1', function(request, response) {
+app.get('/harry1-sorcererstone', function(request, response) {
   console.log('Requesting contact page....');
-  response.send(pug.renderFile(__dirname + '/boooks/book1.html', {}));
+  response.send(pug.renderFile(__dirname + '/boooks/harry1-sorcererstone.html', {}));
 });
 
-app.get('/book2', function(request, response) {
+app.get('/harry2-chamber', function(request, response) {
   console.log('Requesting contact page....');
-  response.send(pug.renderFile(__dirname + '/books/book2.html', {}));
+  response.send(pug.renderFile(__dirname + '/books/harry2-chamber.html', {}));
 });
 
-app.get('/book3', function(request, response) {
+app.get('/harry3-prisoner', function(request, response) {
   console.log('Requesting contact page....');
-  response.send(pug.renderFile(__dirname + '/books/book3.html', {}));
+  response.send(pug.renderFile(__dirname + '/books/harry3-prisoner.html', {}));
 });
 
 app.listen(3000, function() {
