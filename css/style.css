@@ -1,50 +1,20 @@
-/*body#bbground{
-  background-image: url('../images/background.jpg');
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
+.img-responsive {
+  width: 200px;
+  height: auto;
 }
 
-h1,
-.h1 {
-  color: white;
-  font-size: 75px;
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
   text-align: center;
+  border-radius: 4px;
+  -webkit-transition: border .2s ease-in-out;
+       -o-transition: border .2s ease-in-out;
+          transition: border .2s ease-in-out;
 }
 
-h2,
-.h2 {
-  font-size: 50px;
-  text-align: center;
-}
 
-h3,
-.h3 {
-  color: white;
-  font-size: 55px;
-  text-align: center;
-}
 
-.jumbotron p {
-  text-align: center;
-}
-
-.thumbnail p {
-  text-align: center;
-}
-
-#colom {
-    height: 50px;
-    width: 120px;
-    border-color: white;
-    background-color: lightgreen;
-    border-style: solid;
-    border-width:2px;
-    border-radius:5px;
-    margin:auto;
-    text-align:center;
-}
-*/
