@@ -12,17 +12,17 @@ app.get('/', function(request, response) {
 
 app.get('/book1', function(request, response) {
   console.log('Requesting contact page....');
-  response.send(pug.renderFile(__dirname + '/book1.html', {}));
+  response.send(pug.renderFile(__dirname + '/boooks/book1.html', {}));
 });
 
 app.get('/book2', function(request, response) {
   console.log('Requesting contact page....');
-  response.send(pug.renderFile(__dirname + '/book2.html', {}));
+  response.send(pug.renderFile(__dirname + '/books/book2.html', {}));
 });
 
 app.get('/book3', function(request, response) {
   console.log('Requesting contact page....');
-  response.send(pug.renderFile(__dirname + '/book3.html', {}));
+  response.send(pug.renderFile(__dirname + '/books/book3.html', {}));
 });
 
 app.listen(3000, function() {
